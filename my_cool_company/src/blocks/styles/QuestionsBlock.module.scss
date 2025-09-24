@@ -7,12 +7,17 @@
   width: 60%;
 
   .questionBlockTitle {
+    font-size: 3em;
+    padding: 1em;
+    margin: 0;
   }
   .questionsContainer {
-    display: flex;
+    display: grid;
+    gap: 1.5em;
     flex-direction: column;
     align-items: start;
     width: 100%;
+    //padding: 1.5em 0 0 0;
   }
 }
 
