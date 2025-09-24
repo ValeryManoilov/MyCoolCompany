@@ -1,0 +1,18 @@
+.fullscreenImageBlock {
+  background-image: url("../../assets/BackgroundImage.jpg");
+  background-size: cover;
+  min-height: 1067px;
+  position: relative;
+  box-shadow: inset 0px 4px 4px 640px rgba(0, 0, 0, 0.38);
+  h2 {
+    color: white;
+    font-size: 5rem;
+    font-weight: normal;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 50%;
+    margin: 60px;
+    padding: 0;
+  }
+}

@@ -1,0 +1,19 @@
+.questionsBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  padding: 0;
+  width: 60%;
+
+  .questionBlockTitle {
+  }
+  .questionsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+  }
+}
+
+

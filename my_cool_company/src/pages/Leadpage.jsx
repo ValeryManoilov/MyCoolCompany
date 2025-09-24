@@ -1,7 +1,7 @@
-import Header from "../Blocks/Header.jsx";
-import FullscreenImageBlock from "../Blocks/FullscreenImageBlock.jsx";
-import QuestionsBlock from "../Blocks/QuestionsBlock.jsx";
-import Footer from "../Blocks/Footer.jsx";
+import Header from "../blocks/Header.jsx";
+import FullscreenImageBlock from "../blocks/FullscreenImageBlock.jsx";
+import QuestionsBlock from "../blocks/QuestionsBlock.jsx";
+import Footer from "../blocks/Footer.jsx";
 
 function LeadPage()
 {
@@ -9,8 +9,10 @@ function LeadPage()
     return (
         <>
             <Header/>
-            <FullscreenImageBlock/>
-            <QuestionsBlock/>
+            <main>
+                <FullscreenImageBlock/>
+                <QuestionsBlock/>
+            </main>
             <Footer/>
         </>
     );

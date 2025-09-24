@@ -1,0 +1,26 @@
+$bgColor: #8B8C8D;
+$font: Inter, sans-serif;
+
+.logoContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 27%;
+
+  .logoTitle {
+    color: white;
+    font-size: 3rem;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+  }
+}
+.header {
+  background-color: $bgColor;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 1.75em;
+}

@@ -1,0 +1,44 @@
+$unSelectedColor: #4D4D4D;
+
+.questionContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  border-radius: 2em;
+
+  .textContainer {
+    padding: 2em;
+
+    .textQuestion {
+      margin: 0;
+      font-size: 3.5em;
+    }
+
+    .isUnselected {
+      color: white;
+      border-radius: 2em;
+      padding: 1em;
+      background-color: $unSelectedColor;
+    }
+
+    .isClicked {
+      color: black;
+      background-color: white;
+    }
+
+    .textAnswer {
+      margin: 0;
+      padding: 0;
+      font-size: 3em;
+      color: black;
+    }
+  }
+}
+
+.questionClicked {
+  border: 3px solid black;
+  border-radius: 6em;
+  padding: 1em;
+}
+
