@@ -1,0 +1,94 @@
+$formColor: #AFFFAF;
+
+.regFormContainer {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+
+  .regFormContent{
+    @keyframes form_slide {
+      from {
+        transform: translateY(-50%);
+      }
+
+      to{
+        transform: translateY(0);
+      }
+    }
+
+    animation: form_slide 0.5s ease-in-out;
+
+    form{
+      width: 400px;
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      padding: 1.5em;
+      background-color: $formColor;
+      gap: 1em;
+      border-radius: 2em;
+      position: relative;
+
+      .regFormTitle {
+        font-size: 3em;
+        color: black;
+        padding: 0;
+        margin: 0;
+        font-weight: normal;
+      }
+
+      .crossImg {
+        position: absolute;
+        top: 1em;
+        right: 1em;
+        cursor: pointer;
+      }
+
+      .regFormInput {
+        color: black;
+        background-color: $formColor;
+        border: none;
+        border-bottom: 2px solid black;
+        font-size: 2em;
+        width: 100%;
+
+        &::placeholder {
+          opacity: 0.5;
+        }
+      }
+
+      .errorText {
+        color: red;
+        font-size: 1em;
+        padding: 0;
+        margin: 0;
+      }
+      textarea {
+        resize: none;
+        color: black;
+        background-color: $formColor;
+        border: none;
+        border-bottom: 2px solid black;
+        font-size: 2em;
+      }
+
+      .regSubmitButton {
+        padding: 0.5em;
+        color: black;
+        background-color: white;
+        border: 2px solid black;
+        border-radius: 10px;
+        font-size: 1.25em;
+        cursor: pointer;
+      }
+    }
+  }
+
+}

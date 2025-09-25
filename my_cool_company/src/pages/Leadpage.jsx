@@ -2,6 +2,7 @@ import Header from "../blocks/Header.jsx";
 import FullscreenImageBlock from "../blocks/FullscreenImageBlock.jsx";
 import QuestionsBlock from "../blocks/QuestionsBlock.jsx";
 import Footer from "../blocks/Footer.jsx";
+import RegistrationBlock from "../blocks/RegistrationBlock.jsx";
 
 function LeadPage()
 {
@@ -11,6 +12,7 @@ function LeadPage()
             <Header/>
             <main>
                 <FullscreenImageBlock/>
+                <RegistrationBlock/>
                 <QuestionsBlock/>
             </main>
             <Footer/>

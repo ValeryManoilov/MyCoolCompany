@@ -1,0 +1,24 @@
+$buttonColor: #8CFF93;
+
+.registrationContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+  margin: auto;
+  z-index: 0;
+
+  .registrationTitle {
+    font-size: 4em;
+    font-weight: normal;
+  }
+
+  .registrationButton {
+    background-color: $buttonColor;
+    padding: 1em;
+    border-radius: 2em;
+    font-size: 1.5em;
+    cursor: pointer;
+  }
+}
