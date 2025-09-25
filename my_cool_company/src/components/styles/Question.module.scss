@@ -44,3 +44,32 @@ $unSelectedColor: #4D4D4D;
   border-radius: 6em;
 }
 
+@media (max-width: 1024px){
+  .questionContainer{
+    .textContainer{
+      padding: 1.5em;
+
+      .textQuestion {
+        font-size: 2.5em;
+      }
+      .textAnswer {
+        font-size: 2em;
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px){
+  .questionContainer{
+    .textContainer{
+      padding: 1em;
+
+      .textQuestion {
+        font-size: 1.5em;
+      }
+      .textAnswer {
+        font-size: 1em;
+      }
+    }
+  }
+}

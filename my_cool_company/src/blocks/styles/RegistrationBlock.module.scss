@@ -5,12 +5,11 @@ $buttonColor: #8CFF93;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  width: 70%;
+  width: 60%;
   margin: auto;
-  z-index: 0;
 
   .registrationTitle {
-    font-size: 4em;
+    font-size: 3em;
     font-weight: normal;
   }
 
@@ -20,5 +19,24 @@ $buttonColor: #8CFF93;
     border-radius: 2em;
     font-size: 1.5em;
     cursor: pointer;
+  }
+}
+
+@media (max-width: 1024px) {
+  .registrationContainer {
+    width: 80%;
+    .registrationTitle {
+      font-size: 3em;
+    }
+    .registrationButton {
+      font-size: 1.5em;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .registrationContainer {
+    flex-direction: column;
+    gap: 1em;
   }
 }

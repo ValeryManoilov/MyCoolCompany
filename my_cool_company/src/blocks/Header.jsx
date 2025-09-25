@@ -5,7 +5,7 @@ function Header() {
     return (
         <header className={styles.header}>
             <div className={styles.logoContainer}>
-                <img src={logo} alt="logo"/>
+                <img src={logo} alt="logo" className={styles.logoImg} />
                 <h2 className={styles.logoTitle}>SGShop</h2>
             </div>
             <Navigation/>

@@ -41,3 +41,41 @@ footer {
     }
   }
 }
+
+@media (max-width: 1024px) {
+  footer {
+    h2 {
+      font-size: 2em;
+    }
+    .textContainer {
+      gap: 1.5em;
+
+      p {
+        font-size: 1.5em;
+      }
+
+      .socialMediaContainer {
+        gap: 0.75em;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  footer {
+    h2 {
+      font-size: 1.5em;
+    }
+    .textContainer {
+      gap: 1em;
+
+      p {
+        font-size: 1em;
+      }
+
+      .socialMediaContainer {
+        gap: 0.5em;
+      }
+    }
+  }
+}

@@ -15,7 +15,27 @@ $font: Inter, sans-serif;
     margin: 0;
     padding: 0;
   }
+  .logoImg {
+    width: 188px;
+    height: 89px;
+  }
 }
+
+@media (max-width: 1024px) {
+  .logoContainer{
+    width: 20%;
+
+    .logoTitle {
+      font-size: 1.5em;
+    }
+
+    .logoImg {
+      width: 94px;
+      height: 45px;
+    }
+  }
+}
+
 .header {
   background-color: $bgColor;
   display: flex;
@@ -23,4 +43,6 @@ $font: Inter, sans-serif;
   justify-content: space-between;
   align-items: center;
   padding: 1em 1.75em;
+  position: relative;
+  max-height: 100px;
 }
