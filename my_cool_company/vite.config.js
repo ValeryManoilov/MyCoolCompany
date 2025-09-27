@@ -1,10 +1,27 @@
 import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import react from '@vitejs/plugin-react-swc'
+import { viteStaticCopy } from 'vite-plugin-static-copy'
+import svg from 'rollup-plugin-svg';
 
-// https://vite.dev/config/
 export default defineConfig({
-  plugins: [react()],
+  plugins: [
+    react(),
+    svg(),
+    viteStaticCopy({
+      targets: [
+        {
+          src: 'src/assets/*',
+          dest: 'assets',
+        },
+      ],
+    })
+  ],
   build: {
-    outDir: 'dist'
+    outDir: 'build',
+  },
+  server: {
+    allowedHosts: [
+      'localhost'
+    ]
   }
 })
