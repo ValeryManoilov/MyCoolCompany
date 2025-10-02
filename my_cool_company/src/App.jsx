@@ -4,11 +4,11 @@ import styles from "./App.module.scss";
 
 function App() {
   return (
-      <BrowserRouter basename="/MyCoolCompany">
+      <HashRouter>
           <Routes>
               <Route path="/" element={<LeadPage/>} />
           </Routes>
-      </BrowserRouter>
+      </HashRouter>
   )
 }
 
