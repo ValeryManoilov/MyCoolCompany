@@ -4,7 +4,7 @@ import styles from "./App.module.scss";
 
 function App() {
   return (
-      <BrowserRouter basename="/SGShopCompany">
+      <BrowserRouter basename="/MyCoolCompany">
           <Routes>
               <Route path="/" element={<LeadPage/>} />
           </Routes>
