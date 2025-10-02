@@ -8,7 +8,7 @@ function Footer()
         <footer>
             <h2>Контанты</h2>
             <div className={styles.textContainer}>
-                <p>Техподдержка: +7 (911) 540-3783</p>
+                <p>Техподдержка: +7 995 608-1899</p>
                 <p>Почта: manojlovv@inbox.ru</p>
                 <div className={styles.socialMediaContainer}>
                     <p>Соцсети: </p>
